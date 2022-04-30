@@ -1,16 +1,16 @@
+Code base for my final year project of using Reinforcement Learning to solve the Stabbing Square Problem.
+To run , first run the dataset_square.py to generate instances of the squares and lines being represented by an adj_matrix
+then, run the main.py 
+Use python3.7
+
 Files:
- - ilp.py: ILP formulation of the Set Cover Problem (SCP)
- - lp_ilp.py: LP relaxation of the Set Cover Problem
- - lp.py: LP relaxation of a SWAP of disks in the Set Cover Problem
+ - ilp.py: ILP formulation of the Stabbing Square Problem (SSP)
+ - lp_ilp.py: LP relaxation of the Stabbing Square Problem
+ - lp.py: LP relaxation of a SWAP of lines in the Stabbing Square Problem
  - main.py: main file to load datasets and initialise training agent
- - dataset.cpp: dataset generation using the C++ CGAL library
- - dataset_cpp.py: transformation to Numpy and solution generation for dataset generated with above file
- - dataset.py: dataset generation using the SymPy library
  - dataset_greedy.py: dataset generation where the greedy algorithm for SCP utilises O(log n) disks
- - minimal_set_cover.py: minimal set cover initialisation algorithm for SCP
- - scp_greedy.py: greedy algorithm for SCP
- - random_search.py: random search to improve solution on SCP instances
+ - dataset_squares.py dataset generation for lines and squares on a plane
+ - minimal_set_cover.py: minimal set cover initialisation algorithm for SSP
+ - scp_greedy.py: greedy algorithm for the stabbing sqaure problem
  - utils.py: helper functions
  - rl_feature.py: Reinforcement Learning (RL) Agent whose state is based on hand-crafted features
- - rl_gnn.py: RL Agent whose state is based on Graph Neural Network embeddings
- - rl_hybrid.py: RL Agent that concatenates previous two states
