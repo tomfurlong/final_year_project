@@ -1,0 +1,16 @@
+xpress<8.11 # license in server is for 8.10
+numpy
+pandas
+matplotlib
+networkx
+scikit-learn
+jupyterlab
+termcolor
+torch
+sympy
+pandas
+tensorflow
+gym
+gym[atari]
+tqdm
+torchvision

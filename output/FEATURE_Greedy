@@ -1,0 +1,12 @@
+Init Algorithm: greedy
+Train Size: 3 | (512, 1024) 
+Test Sizes: [('val_500', 10, '(128, 256)')]
+Termination Function: is_final_state_2greedy
+Model: 
+ValueModel(
+  (layer1): Linear(in_features=9, out_features=20, bias=True)
+  (layer2): Linear(in_features=20, out_features=40, bias=True)
+  (layer3): Linear(in_features=40, out_features=20, bias=True)
+  (output): Linear(in_features=20, out_features=2, bias=True)
+  (relu): PReLU(num_parameters=1)
+)

@@ -1,0 +1,16 @@
+Files:
+ - ilp.py: ILP formulation of the Set Cover Problem (SCP)
+ - lp_ilp.py: LP relaxation of the Set Cover Problem
+ - lp.py: LP relaxation of a SWAP of disks in the Set Cover Problem
+ - main.py: main file to load datasets and initialise training agent
+ - dataset.cpp: dataset generation using the C++ CGAL library
+ - dataset_cpp.py: transformation to Numpy and solution generation for dataset generated with above file
+ - dataset.py: dataset generation using the SymPy library
+ - dataset_greedy.py: dataset generation where the greedy algorithm for SCP utilises O(log n) disks
+ - minimal_set_cover.py: minimal set cover initialisation algorithm for SCP
+ - scp_greedy.py: greedy algorithm for SCP
+ - random_search.py: random search to improve solution on SCP instances
+ - utils.py: helper functions
+ - rl_feature.py: Reinforcement Learning (RL) Agent whose state is based on hand-crafted features
+ - rl_gnn.py: RL Agent whose state is based on Graph Neural Network embeddings
+ - rl_hybrid.py: RL Agent that concatenates previous two states
